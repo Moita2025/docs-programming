@@ -49,11 +49,28 @@ nav:
 plugins:
     - search
     - monorepo
+    - tags
+        tags_allowed:
+            - Python
+            - Tkinter
+            - 遍历
+            - HTML
+            - Cloudfare Worker
+            - 时间序列
+            - SQL
+            - MySQL
+            - 性能优化
     - blog:
-       blog_dir: .
-       blog_toc: true
-       post_date_format: full
-       archive_toc: true
-       categories_toc: true
-       pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
-       pagination_keep_content: true
+        blog_dir: .
+        blog_toc: true
+        post_date_format: full
+        archive_toc: true
+        categories_toc: true
+        pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+        pagination_keep_content: true
+        categories_allowed:
+            - 文件系统
+            - 网页开发
+            - 数据库
+            - 数据科学
+            - 人工智能
