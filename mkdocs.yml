@@ -1,10 +1,11 @@
-site_name: YOUR_SITE_NAME
-site_url: https://moita2025.github.io/SUB_LINK
+site_name: Moita's Programming Blog
+site_url: https://moita2025.github.io/docs-programming
 theme:
     name: material
     custom_dir: docs/overrides
     features:
         - content.code.copy
+        - navigation.footer
         - navigation.path
         - navigation.prune
         - navigation.tabs
@@ -40,6 +41,18 @@ markdown_extensions:
         alternate_style: true
     - footnotes
 
+nav:
+  - Blog:
+    - index.md 
+
 plugins:
     - search
     - monorepo
+    - blog:
+       blog_dir: .
+       blog_toc: true
+       post_date_format: full
+       archive_toc: true
+       categories_toc: true
+       pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+       pagination_keep_content: true
