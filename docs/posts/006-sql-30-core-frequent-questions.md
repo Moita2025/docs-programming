@@ -385,9 +385,13 @@ Next-Key Lock =
 常见：
 
 1️⃣ 建立索引
+
 2️⃣ 避免 `SELECT *`
+
 3️⃣ 避免子查询
+
 4️⃣ 使用分页
+
 5️⃣ 减少 JOIN
 
 ---
@@ -418,8 +422,11 @@ EXPLAIN SELECT * FROM user WHERE id=1;
 常用方法：
 
 1️⃣ 开启慢查询日志
+
 2️⃣ 用 EXPLAIN
+
 3️⃣ 看索引
+
 4️⃣ 看扫描行数
 
 ---
