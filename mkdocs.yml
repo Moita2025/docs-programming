@@ -61,6 +61,7 @@ plugins:
             - SQL
             - MySQL
             - 性能优化
+            - 理论概念
     - blog:
         blog_dir: .
         blog_toc: true
