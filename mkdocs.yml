@@ -2,6 +2,7 @@ site_name: Moita's Programming Blog
 site_url: https://moita2025.github.io/docs-programming
 theme:
     name: material
+    language: zh
     custom_dir: docs/overrides
     features:
         - content.code.copy
