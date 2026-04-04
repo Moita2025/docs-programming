@@ -66,6 +66,7 @@ plugins:
     - blog:
         blog_dir: .
         blog_toc: true
+        post_url_format: "{file}"
         post_date_format: full
         archive_toc: true
         categories_toc: true
