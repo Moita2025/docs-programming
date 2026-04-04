@@ -3,7 +3,7 @@ date: 2026-03-06
 authors:
   - moita
 categories:
-  - 数据科学
+  - 数据库
 tags:
   - SQL
   - 性能优化

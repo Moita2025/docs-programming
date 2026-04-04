@@ -43,8 +43,9 @@ markdown_extensions:
     - footnotes
 
 nav:
-  - Blog:
+  - 首页:
     - index.md 
+  - 标签: tags.md 
 
 plugins:
     - search
