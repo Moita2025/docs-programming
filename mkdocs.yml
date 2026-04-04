@@ -60,6 +60,7 @@ plugins:
             - 时间序列
             - SQL
             - MySQL
+            - 存储过程
             - 性能优化
             - 理论概念
     - blog:
