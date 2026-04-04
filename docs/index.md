@@ -1,9 +1,6 @@
----
-hide:
-    - navigation
----
-
 # Welcome to MkDocs
+
+本站目前共记录 {{ pages }} 篇文章
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

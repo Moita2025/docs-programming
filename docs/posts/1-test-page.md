@@ -6,6 +6,8 @@ date: 2023-09-08
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+<!-- more -->
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
