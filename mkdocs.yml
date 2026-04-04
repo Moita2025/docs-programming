@@ -49,7 +49,7 @@ nav:
 plugins:
     - search
     - monorepo
-    - tags
+    - tags:
         tags_allowed:
             - Python
             - Tkinter
