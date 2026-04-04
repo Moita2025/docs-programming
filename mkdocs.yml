@@ -41,6 +41,9 @@ markdown_extensions:
     - pymdownx.tabbed:
         alternate_style: true
     - footnotes
+    - toc:
+        permalink: true
+        slugify: !!python/name:pymdownx.slugs.slugify
 
 nav:
   - 首页:
