@@ -74,6 +74,8 @@ plugins:
             - VSCode
             - 环境配置
             - 部署
+            - Electron
+            - JavaScript
     - blog:
         blog_dir: .
         blog_toc: true
