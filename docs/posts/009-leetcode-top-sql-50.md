@@ -1,11 +1,12 @@
 ---
-date: 2026-03-06
+date: 2026-03-07
 authors:
   - moita
 categories:
   - 数据库
 tags:
   - SQL
+  - LeetCode
 ---
 
 # LeetCode 高频 SQL 50 题（基础版）

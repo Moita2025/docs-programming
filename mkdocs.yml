@@ -66,6 +66,7 @@ plugins:
             - 存储过程
             - 性能优化
             - 理论概念
+            - LeetCode
     - blog:
         blog_dir: .
         blog_toc: true
