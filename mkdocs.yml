@@ -76,6 +76,7 @@ plugins:
             - 部署
             - Electron
             - JavaScript
+            - PDF
     - blog:
         blog_dir: .
         blog_toc: true
