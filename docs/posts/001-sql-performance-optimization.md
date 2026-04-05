@@ -17,6 +17,7 @@ tags:
             <li>Select 语句中最好不用 *，只选取要用的列</li>
             <li>Where 子句里不要使用函数</li>
         </ol>
+        <br>
         这两个sql性能优化tips，是 mysql 的“特性”，还是其他 sql 数据库通用的？
     </div>
 </div>
