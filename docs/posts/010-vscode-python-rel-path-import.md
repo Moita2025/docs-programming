@@ -20,7 +20,6 @@ tags:
 			<li>src 下的子 py 文件可以直接引用 data、visual 文件夹下的 py 文件</li>
 			<li>然而 data、visual 文件夹下的 py 文件 无法引用上一级或者 其他同级文件夹下的 py 文件</li>
 		</ul>
-		<br>
 		我不可能 每个 py 文件编写 sys.path.add
 		<br>
 		我还尝试了 gpt 的 .vscode/settings.json "python.analysis.extraPaths": ["./src"] 也不行
@@ -29,9 +28,9 @@ tags:
     </div>
 </div>
 
-<!-- more -->
-
 **这是 VSCode Python 项目（尤其是 src 布局）最经典的导入路径问题**，几乎每个用 src/ + 子模块的人都会遇到。你描述的情况完全典型：
+
+<!-- more -->
 
 - src/ 根下的 .py 文件能直接 `import data.xxx`、`import visual.yyy`（因为运行时/分析时路径包含 src）。
 - 但 data/ 和 visual/ 里的 .py 文件无法向上/同级引用（因为直接运行时 `sys.path[0]` 是当前文件所在目录 `src/data/`，看不到兄弟文件夹）。
