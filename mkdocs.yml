@@ -78,6 +78,7 @@ plugins:
             - JavaScript
             - PDF
             - 图像
+            - GitHub 
     - blog:
         blog_dir: .
         blog_toc: true
@@ -95,3 +96,4 @@ plugins:
             - 数据科学
             - 人工智能
             - 工程实践
+            - 算法
