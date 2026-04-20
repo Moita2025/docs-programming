@@ -80,6 +80,8 @@ plugins:
             - 图像
             - GitHub 
             - Pandas
+            - API
+            - LLM
     - blog:
         blog_dir: .
         blog_toc: true
