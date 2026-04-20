@@ -79,6 +79,7 @@ plugins:
             - PDF
             - 图像
             - GitHub 
+            - Pandas
     - blog:
         blog_dir: .
         blog_toc: true
