@@ -59,7 +59,7 @@ plugins:
             - Tkinter
             - 遍历
             - HTML
-            - Cloudfare Worker
+            - Cloudfare
             - 时间序列
             - SQL
             - MySQL
