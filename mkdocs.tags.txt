@@ -25,3 +25,4 @@ GitHub
 Pandas
 API
 LLM
+Hugging Face
