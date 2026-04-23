@@ -12,7 +12,7 @@ tags:
 
 # AI/ML API 免费 大语言模型 Javascript 调用代码
 
-(AI/ML API)[https://aimlapi.com/ai-ml-api-pricing] 提供了四个免费小参数 LLM 模型的调用接口。
+(AI ML API)[https://aimlapi.com/ai-ml-api-pricing] 提供了三个免费小参数 LLM 模型的调用接口。
 
 <!-- more -->
 
@@ -23,7 +23,6 @@ tags:
 | ERNIE 4.5 0.3B | [https://aimlapi.com/models/ernie-4-5-0-3b](https://aimlapi.com/models/ernie-4-5-0-3b)   |
 | Gemma 3n 4B    | [https://aimlapi.com/models/gemma-3n-4b](https://aimlapi.com/models/gemma-3n-4b)         |
 | Gemma 3 (4B)   | [https://aimlapi.com/models/gemma-3-4b-api](https://aimlapi.com/models/gemma-3-4b-api)   |
-| Gemma 3 (12B)  | [https://aimlapi.com/models/gemma-3-12b-api](https://aimlapi.com/models/gemma-3-12b-api) |
 
 ## 通用 JavaScript 示例
 
@@ -59,8 +58,7 @@ async function main() {
   const models = [
     'baidu/ernie-4-5-0-3b',
     'google/gemma-3n-e4b-it',
-    'google/gemma-3-4b-it',
-    'google/gemma-3-12b-it',
+    'google/gemma-3-4b-it'
   ];
 
   for (const model of models) {
