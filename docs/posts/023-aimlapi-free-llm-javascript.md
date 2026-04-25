@@ -12,7 +12,7 @@ tags:
 
 # AI/ML API 免费 大语言模型 Javascript 调用代码
 
-(AI ML API)[https://aimlapi.com/ai-ml-api-pricing] 提供了三个免费小参数 LLM 模型的调用接口。
+[AI/ML API](https://aimlapi.com/ai-ml-api-pricing) 提供了三个免费小参数 LLM 模型的调用接口。
 
 <!-- more -->
 
