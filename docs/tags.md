@@ -2,4 +2,4 @@
 
 以下是本网站页面涉及的所有标签：
 
-<!-- material/tags -->
+<!-- material/tags { scope: true } -->
