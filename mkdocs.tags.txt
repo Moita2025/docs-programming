@@ -27,3 +27,5 @@ API
 LLM
 Hugging Face
 AI/ML API
+CMD
+WINRAR
