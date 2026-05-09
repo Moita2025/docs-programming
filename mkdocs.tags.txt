@@ -29,3 +29,6 @@ Hugging Face
 AI/ML API
 CMD
 WINRAR
+C
+C++
+GCC
