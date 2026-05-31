@@ -6,7 +6,7 @@ categories:
   - 工程实践
 tags:
   - GitHub
-  - CPP
+  - 问题排查
 ---
 
 # MkDocs Material 部署导致 .git 膨胀的排查与解决
