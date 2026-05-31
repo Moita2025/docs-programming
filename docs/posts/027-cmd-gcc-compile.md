@@ -14,7 +14,7 @@ tags:
 
 # CMD GCC 编译代码
 
-- 使用依赖：[<code>path_parser_lib.bat</code>](https://moita2025.github.io/docs-programming/026-cmd-file-path-str-parse/#%E6%A8%A1%E5%9D%97%E5%9E%8B)
+- 使用依赖：[<code>path_parser_lib.bat</code>](https://moita2025.github.io/docs-programming/2026/05/09/026-cmd-file-path-str-parse/#%E6%A8%A1%E5%9D%97%E5%9E%8B)
 
 <!-- more -->
 

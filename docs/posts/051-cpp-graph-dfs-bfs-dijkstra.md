@@ -14,8 +14,8 @@ tags:
 
 一个用 Windows 对话框选择数据文件的 C++ 无向图程序，支持深度优先遍历、广度优先遍历和 Dijkstra 最短路径查询。BFS 依赖链式队列，Dijkstra 依赖顺序栈做路径回溯。
 
-- 使用依赖：[<code>queue.h</code>](https://moita2025.github.io/docs-programming/049-cpp-linked-queue-impl)
-- 使用依赖：[<code>sqstack.h</code>](https://moita2025.github.io/docs-programming/050-cpp-sequential-stack-impl)
+- 使用依赖：[<code>queue.h</code>](https://moita2025.github.io/docs-programming/2026/05/31/049-cpp-linked-queue-impl/)
+- 使用依赖：[<code>sqstack.h</code>](https://moita2025.github.io/docs-programming/2026/05/31/050-cpp-sequential-stack-impl/)
 
 <!-- more -->
 
