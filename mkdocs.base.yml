@@ -56,8 +56,8 @@ plugins:
     - blog:
         blog_dir: .
         blog_toc: true
-        post_url_format: "{file}"
-        post_date_format: full
+        post_url_date_format: yyyy/MM/dd
+        post_url_format: "{date}/{file}"
         archive_toc: true
         categories_toc: true
         pagination_per_page: 5
