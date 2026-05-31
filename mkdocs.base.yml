@@ -1,0 +1,73 @@
+site_name: Moita's Programming Blog
+site_url: https://moita2025.github.io/docs-programming
+theme:
+    name: material
+    language: zh
+    custom_dir: docs/overrides
+    features:
+        - content.code.copy
+        - navigation.footer
+        - navigation.path
+        - navigation.prune
+        - navigation.tabs
+        - navigation.indexes
+        - navigation.top
+        - toc.follow
+    palette:
+        primary: teal
+
+markdown_extensions:
+    - pymdownx.arithmatex:
+        generic: true
+    - attr_list
+    - md_in_html
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.inlinehilite 
+    - pymdownx.tilde
+    - pymdownx.snippets
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
+    - admonition
+    - pymdownx.details
+    - pymdownx.tabbed:
+        alternate_style: true
+    - footnotes
+    - toc:
+        permalink: true
+        slugify: !!python/name:pymdownx.slugs.uslugify
+
+nav:
+  - 首页:
+    - index.md 
+  - 标签: tags.md 
+
+plugins:
+    - search
+    - monorepo
+    - blog:
+        blog_dir: .
+        blog_toc: true
+        post_url_format: "{file}"
+        post_date_format: full
+        archive_toc: true
+        categories_toc: true
+        pagination_per_page: 5
+        pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+        pagination_keep_content: true
+        categories_allowed:
+            - 文件系统
+            - 网页开发
+            - 数据库
+            - 数据科学
+            - 人工智能
+            - 工程实践
+            - 算法

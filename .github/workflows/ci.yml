@@ -1,0 +1,50 @@
+name: ci 
+on:
+  push:
+    branches:
+      - master 
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        # 优化1：拉取代码时只拉最新提交，加快Actions运行速度，不影响功能
+        with:
+          fetch-depth: 1
+
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          # 优化2：只缓存pip依赖，而不是整个~/.cache，缓存更小速度更快
+          path: ~/.cache/pip 
+          restore-keys: |
+            mkdocs-material-
+      
+      - run: pip install mkdocs-material 
+      - run: pip install mkdocs-monorepo-plugin
+
+      - name: Merge mkdocs.yml from base and tags
+        run: python mkdocs-merge-yml.py
+
+      # 新增3：构建前强制清理旧的site目录，避免临时文件残留
+      - name: Build MkDocs Site
+        run: mkdocs build --clean
+
+      # 核心改动：给gh-deploy加两个关键参数
+      - name: Deploy to GitHub Pages
+        # --clean：部署前自动清理gh-pages上所有不在当前site里的旧文件（比如删掉的旧博文、垃圾文件）
+        # --no-history：强制覆盖gh-pages的所有历史，每次部署后gh-pages只有1个最新提交，从根源避免gh-pages膨胀
+        # 注意：--no-history需要mkdocs 1.5+版本，当前mkdocs-material都支持，如果版本低可以先跑pip install --upgrade mkdocs升级
+        run: mkdocs gh-deploy --force --clean --no-history
