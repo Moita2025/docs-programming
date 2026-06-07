@@ -14,7 +14,7 @@ tags:
 
 用两个顺序栈——运算符栈 OPTR 和操作数栈 OPND——实现算术表达式的求值，支持加减乘除与括号。
 
-- 使用依赖：[<code>sqstack 顺序栈</code>](https://moita2025.github.io/docs-programming/2026/06/01/068-cpp-seq-stack-core/#修正后完整代码)
+- 使用依赖：[<code>sqstack 顺序栈</code>](https://moita2025.github.io/docs-programming/2026/06/01/069-cpp-seq-stack-core/#修正后完整代码)
 
 <!-- more -->
 

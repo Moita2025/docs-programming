@@ -14,7 +14,7 @@ tags:
 
 在顺序表核心操作的基础上，追加排序、查找、归并以及集合交并差等扩展功能。
 
-- 使用依赖：[<code>sqlist 核心操作</code>](https://moita2025.github.io/docs-programming/2026/06/01/054-cpp-seq-list-core/#完整代码)
+- 使用依赖：[<code>sqlist 核心操作</code>](https://moita2025.github.io/docs-programming/2026/06/01/055-cpp-seq-list-core/#完整代码)
 
 <!-- more -->
 

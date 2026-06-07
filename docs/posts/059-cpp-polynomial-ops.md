@@ -14,7 +14,7 @@ tags:
 
 基于线性链表基础操作，实现一元多项式的创建、输出、加法、减法与乘法。
 
-- 使用依赖：[<code>linklist 链表基础操作</code>](https://moita2025.github.io/docs-programming/2026/06/01/057-cpp-linked-list-core/#完整代码)
+- 使用依赖：[<code>linklist 链表基础操作</code>](https://moita2025.github.io/docs-programming/2026/06/01/058-cpp-linked-list-core/#完整代码)
 
 <!-- more -->
 

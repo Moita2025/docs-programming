@@ -15,7 +15,7 @@ tags:
 
 在邻接矩阵存储的无向图上实现广度优先搜索。借助链式队列管理待访问顶点，从起点出发逐层扩散访问。
 
-- 使用依赖：[<code>mgraph 邻接矩阵</code>](https://moita2025.github.io/docs-programming/2026/06/01/064-cpp-graph-adjacency-matrix/#完整代码)
+- 使用依赖：[<code>mgraph 邻接矩阵</code>](https://moita2025.github.io/docs-programming/2026/06/01/065-cpp-graph-adjacency-matrix/#完整代码)
 
 <!-- more -->
 
